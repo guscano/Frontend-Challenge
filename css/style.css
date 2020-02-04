@@ -11,6 +11,7 @@ body {
   display: block;
   height: auto;
   width: 375px;
+  margin: 0 auto;
 }
 /*nav bar display*/
 .topnav {
@@ -43,7 +44,7 @@ h1 {
 }
 /*features and position of listed items*/
 p {
-  color: #FF9500;
+
   display: inline-block;
 }
 /*chracterstics of p1 displayed*/
@@ -52,7 +53,7 @@ p {
   padding-top: 5%;
   padding-left: 2%;
   letter-spacing: normal;
-  font-family: roboto;
+  font-family: 'Roboto', sans-serif;
   float: left;
   font-weight: lighter;
   color: #212121;
@@ -63,32 +64,58 @@ p {
 /*chracterstics of p2 displayed*/
 .p2 {
   font-size: 1.5em;
-  padding-top: 4.5%;
-  padding-bottom: 4%;
-  padding-left: 5%;
-  margin-right: 5%;
+  padding-top: 5%;
+  padding-bottom: 2%;
+  padding-left: 2%;
+  margin-right: 2%;
   text-align: left;
   letter-spacing: normal;
-  font-family: roboto;
+  font-family: 'Roboto', sans-serif;
   font-weight: 600;
   height: 50px;
   width: 180px;
+
 }
 /*chracterstics of p3 displayed*/
 .p3 {
   font-size: 1.25em;
-  padding-top: 3.75%;
+  padding-top: 4%;
   padding-right: 15%;
-  padding-bottom: 3%;
+  padding-bottom: 2%;
   text-align: left;
   letter-spacing: normal;
-  font-family: roboto;
+  font-family: 'Roboto', sans-serif;
   font-variant-caps: normal;
   font-weight: 500;
   float: right;
-  margin-left: 5%;
+  margin-left: 4%;
   height: 50px;
   width: 25px;
   padding: auto;
-  color: #767676;
+  color: #000;
+}
+
+.routes {
+  height: 371px;
+  overflow-y: scroll;
+  background-color: white;
+}
+
+.Cottage {
+  color: #818181;
+  font-style: italic;
+}
+
+.Madison {
+  color: #818181;
+  font-style: italic;
+}
+
+.Streeterville {
+  color: #818181;
+  font-style: italic;
+}
+
+.Jackson {
+  color: #C70039;
 }
